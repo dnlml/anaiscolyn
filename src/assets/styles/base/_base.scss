@@ -1,0 +1,53 @@
+html {
+  &.js {
+    opacity: 0;
+    transition: opacity 1s;
+
+    &.wf-active{
+      opacity: 1;
+    }
+  }
+}
+
+p {
+  margin-bottom: 1em;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  &,
+  &:visited,
+  &:link {
+    position: relative;
+    text-decoration: none;
+    color: darken(#FCA16C, 20%);
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 1px;
+      background-color: #FCA16C;
+      transition: width .33s;
+    }
+
+    @include mq('medium') {
+      &:hover {
+        &:after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

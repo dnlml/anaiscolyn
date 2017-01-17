@@ -1,0 +1,53 @@
+.header {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.header__subtitle {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  // letter-spacing: 1em;
+  text-align: center;
+}
+
+.header__subtitle__letter {
+  position: relative;
+  display: inline-block;
+  padding: 0 .5em;
+  transform: rotateY(90deg);
+  transform-origin: .25em 50%;
+  transition: transform .86s;
+  transform-style: preserve-3d;
+  will-change: transform;
+
+  @for $i from 1 through 9 {
+    &:nth-child(#{$i}){
+      transition-delay: #{($i/10)+0.6}s;
+    }
+  }
+
+  .animate & {
+    transform: rotateY(0deg);
+  }
+}
+
+.header__wrapper {
+  position: relative;
+  z-index: 20;
+}
+
+.header__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
