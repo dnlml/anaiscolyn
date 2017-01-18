@@ -27,7 +27,7 @@ a {
   &:link {
     position: relative;
     text-decoration: none;
-    color: darken(#FCA16C, 20%);
+    color: darken($salmon, 20%);
 
     &:after {
       content: '';
@@ -38,7 +38,7 @@ a {
       bottom: 0;
       width: 0;
       height: 1px;
-      background-color: #FCA16C;
+      background-color: $salmon;
       transition: width .33s;
     }
 

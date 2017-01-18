@@ -1,75 +1,71 @@
 'use strict';
 const dynamics = require('dynamics.js');
-const Lethargy = require('lethargy').Lethargy;
+const forEach = require('lodash/forEach');
 
 class Card {
   constructor() {
-
-    this.fc = document.querySelector(".about__img");
-    this.wrapper = this.fc.querySelectorAll(".about__img__wrapper")[0];
-    this.light = this.fc.querySelectorAll(".about__img__light")[0];
-    this.fcHalfHeight = 300/2;
-    this.fcHalfWidth = 215/2;
+    this.fc = document.querySelectorAll(".cards");
     this.defaultLightWidth = 40;
     this.defaultLightAngle = 45;
     this.maxRotateX = 10;
     this.maxRotateY = 10;
     this.maxLightWidth = 25;
     this.maxLightAngle = 20;
-    this.ticking = false;
     this.lightValue = {
       width: this.defaultLightWidth,
       angle: this.defaultLightAngle
     };
 
-    this.init();
+    forEach(this.fc, el => {
+      this.init(el);
+    });
   }
 };
 
-Card.prototype.init = function () {
-  this.eventsManager();
-  this.lethargy = new Lethargy();
+Card.prototype.init = function (el) {
+  let info = {
+    'el': el,
+    'fcHalfHeight': el.getBoundingClientRect().height/2,
+    'fcHalfWidth': el.getBoundingClientRect().width/2
+  }
+  this.wrapper = info.el.querySelectorAll(".card__wrapper");
+  this.eventsManager(info);
 };
 
-Card.prototype.eventsManager = function () {
-  this.onMouseMoveFn = this.onMouseMove.bind(this);
-  this.onMouseLeaveFn = this.onMouseLeave.bind(this);
-  this.onScrollFn = this.onScroll.bind(this);
-  this.wrapper.addEventListener("mousemove", this.onMouseMoveFn);
-  this.wrapper.addEventListener("mouseleave", this.onMouseLeaveFn);
-  // window.addEventListener("mousewheel", this.onScrollFn);
+Card.prototype.eventsManager = function (card) {
+  forEach(this.wrapper, el => {
+    let light = el.querySelector(".card__light");
+    this.onMouseMoveFn = this.onMouseMove.bind(this, el, card, light);
+    this.onMouseLeaveFn = this.onMouseLeave.bind(this, el, light);
+    el.addEventListener("mousemove", this.onMouseMoveFn);
+    el.addEventListener("mouseleave", this.onMouseLeaveFn);
+  });
 };
 
-Card.prototype.onMouseMove = function (event) {
+Card.prototype.onMouseMove = function (el, card, light, event) {
   // Get mouse position
-  let fcRect = this.fc.getBoundingClientRect();
-  let fcOffset = {
-    top: fcRect.top + document.body.scrollTop,
-    left: fcRect.left + document.body.scrollLeft
-  };
-  let mouseX = (event.pageX - fcOffset.left) | 0;
-  let mouseY = (event.pageY - fcOffset.top) | 0;
+  let mouseX = (event.layerX) || 0;
+  let mouseY = (event.layerY) || 0;
 
   // Move the floating card
-  let diffX = -1 * (this.fcHalfWidth - mouseX);
-  let diffY = this.fcHalfHeight - mouseY;
-  let rotateX = diffY / this.fcHalfHeight * this.maxRotateX;
-  let rotateY = diffX / this.fcHalfWidth * this.maxRotateY;
+  let diffX = -1 * (card.fcHalfWidth - mouseX);
+  let diffY = card.fcHalfHeight - mouseY;
+  let rotateX = diffY / card.fcHalfHeight * this.maxRotateX;
+  let rotateY = diffX / card.fcHalfWidth * this.maxRotateY;
 
-  dynamics.stop(this.wrapper);
-  this.wrapper.style.transform = "rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg)";
+  dynamics.stop(el);
+  el.style.transform = "rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg)";
 
   // Move the light
-  this.lightValue.width = this.defaultLightWidth - (diffY / this.fcHalfHeight * this.maxLightWidth);
-  this.lightValue.angle = this.defaultLightAngle + (diffX / this.fcHalfWidth * this.maxLightAngle);
+  this.lightValue.width = this.defaultLightWidth - (diffY / card.fcHalfHeight * this.maxLightWidth);
+  this.lightValue.angle = this.defaultLightAngle + (diffX / card.fcHalfWidth * this.maxLightAngle);
 
-  dynamics.stop(this.lightValue);
-  this.light.style.backgroundImage = "linear-gradient(" + this.lightValue.angle + "deg, rgba(0,0,0,.2), transparent " + this.lightValue.width + "%)";
+  light.style.backgroundImage = "linear-gradient(" + this.lightValue.angle + "deg, rgba(0,0,0,.2), transparent " + this.lightValue.width + "%)";
 };
 
-Card.prototype.onMouseLeave = function () {
-  // Move the floating card to its initial position
-  dynamics.animate(this.wrapper, {
+Card.prototype.onMouseLeave = function (el, light) {
+  let lightValue = this.lightValue;
+  dynamics.animate(el, {
     rotateX: 0,
     rotateY: 0
   }, {
@@ -77,38 +73,16 @@ Card.prototype.onMouseLeave = function () {
     duration: 1500
   });
 
-  // Move the light to its initial position
-  dynamics.animate(this.lightValue, {
+  dynamics.animate(lightValue, {
     width: this.defaultLightWidth,
     angle: this.defaultLightAngle
   }, {
     type: dynamics.spring,
     duration: 1500,
-    change: function(obj) {
-      this.light.style.backgroundImage = "linear-gradient(" + obj.angle + "deg, rgba(0,0,0,.2), transparent " + obj.width + "%)";
-    }.bind(this)
+    change: obj => {
+      light.style.backgroundImage = "linear-gradient(" + obj.angle + "deg, rgba(0,0,0,.2), transparent " + obj.angle + "%)";
+    }
   });
-};
-
-Card.prototype.onScroll = function (event) {
-  if (this.ticking){
-    requestAnimationFrame(this.inertia.bind(this, event));
-  }
-
-  this.ticking = true;
-  this.wrapper.style.transform = "rotateX(0deg)";
-};
-
-Card.prototype.inertia = function (e) {
-  let dir = e.wheelDelta < 0 ? -1 : 1;
-
-  if(dir === -1) {
-    this.wrapper.style.transform = "rotateX(" + e.deltaY + "deg)";
-  }else if (dir === 1) {
-    this.wrapper.style.transform = "rotateX(" + -1*e.deltaY + "deg)";
-  }
-
-  this.ticking = false;
 };
 
 module.exports = Card;

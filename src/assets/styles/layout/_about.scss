@@ -5,14 +5,15 @@
 .about__img {
   position: relative;
   width: 21.5rem;
-  perspective: 1000px;
   margin: 0 auto;
 }
 
 .about__img__wrapper {
-  position: relative;
-  transform-style: preserve-3d;
-  will-change: transform;
+  margin-bottom: 3rem;
+
+  @include mq('medium-l') {
+    margin-bottom: 0;
+  }
 }
 
 .about__img__gradient {
@@ -30,16 +31,6 @@
 .about__img__thumb {
   display: block;
   width: 100%;
-}
-
-.about__img__light {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-image: linear-gradient(45deg, rgba(black, .2), transparent 40%);
-  backface-visibility: hidden;
 }
 
 .about__content {

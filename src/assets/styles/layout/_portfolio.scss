@@ -1,0 +1,42 @@
+.portfolio {
+
+}
+
+.portfolio__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio__item {
+  position: relative;
+  margin: 1.5rem;
+  flex-basis: calc(100 / 33%);
+  cursor: pointer;
+
+  img {
+    filter: grayscale(100%);
+    opacity: .8;
+    transition: filter .3s;
+  }
+
+  @include mq('medium-l') {
+    &:hover {
+      img {
+        filter: grayscale(0);
+      }
+    }
+  }
+}
+
+.portfolio__item__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  opacity: .4;
+  z-index: 10;
+}

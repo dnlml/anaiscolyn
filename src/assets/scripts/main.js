@@ -2,6 +2,8 @@ const WebFont = require('webfontloader');
 const Card = require('./components/card.js');
 const FlipLetter = require('./components/flipLetter.js');
 const Header = require('./components/header.js');
+const Portfolio = require('./components/portfolio.js');
+const Slider = require('./components/slider.js');
 
 class App {
   constructor () {
@@ -10,10 +12,11 @@ class App {
 }
 
 App.prototype.init = function () {
-  console.log('App: init');
   new Card();
   new FlipLetter();
   new Header();
+  new Portfolio();
+  new Slider();
 }
 
 document.addEventListener('DOMContentLoaded', function () {

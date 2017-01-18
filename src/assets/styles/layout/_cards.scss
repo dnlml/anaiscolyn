@@ -1,0 +1,19 @@
+.cards {
+  perspective: 1000px;
+}
+
+.card__wrapper {
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.card__light {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: linear-gradient(45deg, rgba(black, .2), transparent 40%);
+  backface-visibility: hidden;
+}

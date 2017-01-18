@@ -3,5 +3,14 @@
 }
 
 .skills__block {
-  justify-content: space-between;
+
+}
+
+.skills__block__item {
+  margin-bottom: 3rem;
+
+  @include mq('medium-l') {
+    margin-bottom: 0;
+    margin-right: 6rem;
+  }
 }

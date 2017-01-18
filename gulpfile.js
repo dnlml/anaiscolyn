@@ -99,7 +99,7 @@ gulp.task('copyFonts', () => {
 });
 
 gulp.task('copyImages', () => {
-  return gulp.src('./src/assets/images/*.*')
+  return gulp.src('./src/assets/images/**/*.*')
     .pipe(gulp.dest('./dist/assets/images'))
     .pipe(browserSync.stream());
 });

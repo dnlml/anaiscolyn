@@ -15,6 +15,7 @@ FlipLetter.prototype.init = function (){
 };
 
 FlipLetter.prototype.prepareWord = function () {
+  // Add span around each letter
   let letters = this.word.textContent.split('');
   letters = letters.map(letter => `<span class="header__subtitle__letter">${letter}</span>`);
   letters = letters.join('');
