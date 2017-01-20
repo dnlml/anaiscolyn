@@ -119,7 +119,7 @@
           <li class="portfolio__item" data-portfolio-item="1">
             <div class="card__wrapper portfolio__item__card">
               <div class="portfolio__item__bg"></div>
-              <img src="./assets/images/portfolio/01/collective_house_00.jpg" alt="">
+              <img src="./assets/images/portfolio/01/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
             <h2 class="portfolio__item__title">Collective houses</h2>
@@ -127,7 +127,7 @@
           <li class="portfolio__item" data-portfolio-item="2">
             <div class="card__wrapper portfolio__item__card">
               <div class="portfolio__item__bg"></div>
-              <img src="./assets/images/portfolio/02/kmo-00.jpg" alt="">
+              <img src="./assets/images/portfolio/02/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
             <h2 class="portfolio__item__title">KmO</h2>
