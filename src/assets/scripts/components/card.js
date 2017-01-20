@@ -25,8 +25,8 @@ class Card {
 Card.prototype.init = function (el) {
   let info = {
     'el': el,
-    'fcHalfHeight': el.getBoundingClientRect().height/2,
-    'fcHalfWidth': el.getBoundingClientRect().width/2
+    'fcHalfHeight': el.firstElementChild.getBoundingClientRect().height/2,
+    'fcHalfWidth': el.firstElementChild.getBoundingClientRect().width/2
   }
   this.wrapper = info.el.querySelectorAll(".card__wrapper");
   this.eventsManager(info);
@@ -53,6 +53,10 @@ Card.prototype.onMouseMove = function (el, card, light, event) {
   let rotateX = diffY / card.fcHalfHeight * this.maxRotateX;
   let rotateY = diffX / card.fcHalfWidth * this.maxRotateY;
 
+  if(el.classList.contains('portfolio__item__card')) {
+    rotateX = diffY / card.fcHalfHeight;
+    rotateY = diffX / card.fcHalfWidth;
+  }
   dynamics.stop(el);
   el.style.transform = "rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg)";
 

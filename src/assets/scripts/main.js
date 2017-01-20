@@ -15,8 +15,8 @@ App.prototype.init = function () {
   new Card();
   new FlipLetter();
   new Header();
-  new Portfolio();
   new Slider();
+  new Portfolio();
 }
 
 document.addEventListener('DOMContentLoaded', function () {

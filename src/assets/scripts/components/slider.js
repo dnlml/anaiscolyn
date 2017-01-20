@@ -12,6 +12,7 @@ class Slider {
 };
 
 Slider.prototype.init = function () {
+  this.slides = [];
   forEach(this.sliders, elem => {
     let flkty = new Flickity( elem, {
       // options
@@ -19,7 +20,11 @@ Slider.prototype.init = function () {
       contain: true,
       pageDots: false
     });
+    this.slides.push(flkty);
   });
+
+  window.slides = this.slides;
 };
+
 
 module.exports = Slider;

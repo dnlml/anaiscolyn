@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" media="screen" href="assets/styles/main.css">
   <title>Anaïs Colyn | Architect</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
   <script>
     document.documentElement.classList.remove("no-js");
     document.documentElement.classList.add("js");
@@ -110,36 +116,52 @@
       <h1 class="h2">Portfolio</h1>
       <div class="portfolio__list-wrapper">
         <ul class="portfolio__list cards" data-portfolio>
-          <li class="portfolio__item card__wrapper" data-portfolio-item="01">
-            <div class="portfolio__item__bg"></div>
-            <img src="./assets/images/portfolio/01/thumb.jpg" alt="">
-            <span class="card__light"></span>
+          <li class="portfolio__item" data-portfolio-item="1">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/01/collective_house_00.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">Collective houses</h2>
           </li>
-          <li class="portfolio__item card__wrapper" data-portfolio-item="02">
-            <div class="portfolio__item__bg"></div>
-            <img src="./assets/images/portfolio/02/thumb.jpg" alt="">
-            <span class="card__light"></span>
+          <li class="portfolio__item" data-portfolio-item="2">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/02/kmo-00.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">KmO</h2>
           </li>
-          <li class="portfolio__item card__wrapper" data-portfolio-item="03">
-            <div class="portfolio__item__bg"></div>
-            <img src="./assets/images/portfolio/03/thumb.jpg" alt="">
-            <span class="card__light"></span>
+          <li class="portfolio__item" data-portfolio-item="3">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/03/centre-d-architecture-00.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">Architecture center</h2>
           </li>
-          <li class="portfolio__item card__wrapper" data-portfolio-item="04">
-            <div class="portfolio__item__bg"></div>
-            <img src="./assets/images/portfolio/04/thumb.jpg" alt="">
-            <span class="card__light"></span>
+          <li class="portfolio__item" data-portfolio-item="4">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/04/high-school-00.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">High School</h2>
           </li>
-          <li class="portfolio__item card__wrapper" data-portfolio-item="05">
-            <div class="portfolio__item__bg"></div>
-            <img src="./assets/images/portfolio/05/thumb.jpg" alt="">
-            <span class="card__light"></span>
+          <li class="portfolio__item" data-portfolio-item="5">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/05/tagada-00.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">Tagada Boutique</h2>
           </li>
         </ul>
       </div>
     </article>
 
-    <div class="slider-wrapper" data-slider-container="01">
+    <div class="slider-wrapper" data-slider-container="1">
+      <div class="slider__title">Collective houses</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
@@ -149,7 +171,8 @@
         </div>
       </div>
     </div>
-    <div class="slider-wrapper" data-slider-container="02">
+    <div class="slider-wrapper" data-slider-container="2">
+      <div class="slider__title">KmO</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
@@ -160,7 +183,8 @@
         </div>
       </div>
     </div>
-    <div class="slider-wrapper" data-slider-container="03">
+    <div class="slider-wrapper" data-slider-container="3">
+      <div class="slider__title">Architecture center</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
@@ -172,7 +196,8 @@
         </div>
       </div>
     </div>
-    <div class="slider-wrapper" data-slider-container="04">
+    <div class="slider-wrapper" data-slider-container="4">
+      <div class="slider__title">High School</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
@@ -185,7 +210,8 @@
         </div>
       </div>
     </div>
-    <div class="slider-wrapper" data-slider-container="05">
+    <div class="slider-wrapper" data-slider-container="5">
+    <div class="slider__title">Tagada Boutique</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
@@ -197,8 +223,8 @@
     </div>
   </main>
 
-  <footer>
-
+  <footer class="footer">
+    Coded by <a href="http://danielemeli.com" target="_blank">dnlml</a>
   </footer>
 
   <script src="assets/scripts/main.js"></script>

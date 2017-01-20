@@ -1,0 +1,9 @@
+.footer {
+  padding: 1rem 3rem 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+
+  @include mq('medium-l') {
+    text-align: right;
+  }
+}

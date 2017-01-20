@@ -25,6 +25,11 @@
       img {
         filter: grayscale(0);
       }
+      .portfolio__item__title {
+        &:after {
+          width: 100%;
+        }
+      }
     }
   }
 }
@@ -39,4 +44,24 @@
   height: 100%;
   opacity: .4;
   z-index: 10;
+}
+
+.portfolio__item__title {
+  font-size: 1.2rem;
+  margin-top: 1em;
+  letter-spacing: .1em;
+  display: inline-block;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: rgba(black, .6);
+    transition: width .33s;
+  }
 }
