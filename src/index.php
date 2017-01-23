@@ -34,10 +34,16 @@
       <h1 class="h1">Anaïs Colyn</h1>
       <div class="header__subtitle" data-flip>architect</div>
     </div>
+    <div class="header__scroll">
+      <div class="header__scroll-wrapper" data-scroll-down="about">
+        <div class="header__scroll__text">scroll down</div>
+        <div class="header__scroll__btn"></div>
+      </div>
+    </div>
   </header>
 
   <main class="main">
-    <article class="article about">
+    <article class="article about" id="about">
       <h1 class="h2">About me</h1>
       <div class="flexy">
         <div class="flexy__item about__img cards">
@@ -135,7 +141,7 @@
           <li class="portfolio__item" data-portfolio-item="3">
             <div class="card__wrapper portfolio__item__card">
               <div class="portfolio__item__bg"></div>
-              <img src="./assets/images/portfolio/03/centre-d-architecture-00.jpg" alt="">
+              <img src="./assets/images/portfolio/03/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
             <h2 class="portfolio__item__title">Architecture center</h2>
@@ -143,7 +149,7 @@
           <li class="portfolio__item" data-portfolio-item="4">
             <div class="card__wrapper portfolio__item__card">
               <div class="portfolio__item__bg"></div>
-              <img src="./assets/images/portfolio/04/high-school-00.jpg" alt="">
+              <img src="./assets/images/portfolio/04/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
             <h2 class="portfolio__item__title">High School</h2>
@@ -151,7 +157,7 @@
           <li class="portfolio__item" data-portfolio-item="5">
             <div class="card__wrapper portfolio__item__card">
               <div class="portfolio__item__bg"></div>
-              <img src="./assets/images/portfolio/05/tagada-00.jpg" alt="">
+              <img src="./assets/images/portfolio/05/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
             <h2 class="portfolio__item__title">Tagada Boutique</h2>

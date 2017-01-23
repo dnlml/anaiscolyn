@@ -4,6 +4,7 @@ const FlipLetter = require('./components/flipLetter.js');
 const Header = require('./components/header.js');
 const Portfolio = require('./components/portfolio.js');
 const Slider = require('./components/slider.js');
+const ScrollTo = require('./components/scrollTo.js');
 
 class App {
   constructor () {
@@ -17,6 +18,7 @@ App.prototype.init = function () {
   new Header();
   new Slider();
   new Portfolio();
+  new ScrollTo();
 }
 
 document.addEventListener('DOMContentLoaded', function () {

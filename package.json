@@ -27,6 +27,7 @@
     "gutil": "^1.6.4",
     "lethargy": "^1.0.4",
     "lodash": "^4.16.4",
+    "smoothscroll-polyfill": "^0.3.4",
     "three": "^0.83.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",

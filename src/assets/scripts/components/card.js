@@ -54,8 +54,8 @@ Card.prototype.onMouseMove = function (el, card, light, event) {
   let rotateY = diffX / card.fcHalfWidth * this.maxRotateY;
 
   if(el.classList.contains('portfolio__item__card')) {
-    rotateX = diffY / card.fcHalfHeight;
-    rotateY = diffX / card.fcHalfWidth;
+    rotateX = diffY / card.fcHalfHeight * 5;
+    rotateY = diffX / card.fcHalfWidth * 5;
   }
   dynamics.stop(el);
   el.style.transform = "rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg)";
