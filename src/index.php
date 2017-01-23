@@ -224,6 +224,7 @@
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-00.jpg" alt=""></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-01.jpg" alt=""></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-02.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-03.jpg" alt=""></div>
         </div>
       </div>
     </div>
