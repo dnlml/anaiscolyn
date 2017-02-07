@@ -1,5 +1,5 @@
 'use strict';
-const Flickity = require('flickity');
+const Flickity = require('flickity-imagesloaded');
 const forEach = require('lodash/forEach');
 
 class Slider {
@@ -18,7 +18,8 @@ Slider.prototype.init = function () {
       // options
       cellAlign: 'center',
       contain: true,
-      pageDots: false
+      pageDots: false,
+      imagesLoaded: true
     });
     this.slides.push(flkty);
   });
