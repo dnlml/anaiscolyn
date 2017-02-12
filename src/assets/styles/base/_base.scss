@@ -21,13 +21,15 @@ img {
   max-width: 100%;
 }
 
-a {
+a,
+.a {
   &,
   &:visited,
   &:link {
     position: relative;
     text-decoration: none;
     color: darken($salmon, 20%);
+    cursor: pointer;
 
     &:after {
       content: '';

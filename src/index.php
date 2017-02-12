@@ -57,7 +57,7 @@
           <p>
             I was born in Belgium on the 24th of July 1989. <br>
             Currently based in Liège, I’m passionated about  architecture and interior design.<br>
-            I have a deep interest about photography and I love traveling.<br>
+            I have a deep interest in <span class="a" data-photography-item="6">photography</span> and I love traveling.<br>
             In my free time I like creating ceramics  dishes.<br>
           </p>
           <p>
@@ -128,7 +128,7 @@
               <img src="./assets/images/portfolio/01/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
-            <h2 class="portfolio__item__title">Collective houses</h2>
+            <h2 class="portfolio__item__title">Collective houses in Sabadell</h2>
           </li>
           <li class="portfolio__item" data-portfolio-item="2">
             <div class="card__wrapper portfolio__item__card">
@@ -136,7 +136,7 @@
               <img src="./assets/images/portfolio/02/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
-            <h2 class="portfolio__item__title">KmO</h2>
+            <h2 class="portfolio__item__title">KmO - Taller Vertical Esarq-Uic</h2>
           </li>
           <li class="portfolio__item" data-portfolio-item="3">
             <div class="card__wrapper portfolio__item__card">
@@ -144,7 +144,7 @@
               <img src="./assets/images/portfolio/03/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
-            <h2 class="portfolio__item__title">Architecture center</h2>
+            <h2 class="portfolio__item__title">Architecture center in Liège</h2>
           </li>
           <li class="portfolio__item" data-portfolio-item="4">
             <div class="card__wrapper portfolio__item__card">
@@ -152,7 +152,7 @@
               <img src="./assets/images/portfolio/04/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
-            <h2 class="portfolio__item__title">High School</h2>
+            <h2 class="portfolio__item__title">High school in Brussels</h2>
           </li>
           <li class="portfolio__item" data-portfolio-item="5">
             <div class="card__wrapper portfolio__item__card">
@@ -167,67 +167,91 @@
     </article>
 
     <div class="slider-wrapper" data-slider-container="1">
-      <div class="slider__title">Collective houses</div>
+      <div class="slider__title">Collective houses in Sabadell</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_00.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_01.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_02.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_00.jpg" alt="collective house 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_01.jpg" alt="collective house 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_02.jpg" alt="collective house 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_03.jpg" alt="collective house 03"></div>
         </div>
       </div>
     </div>
     <div class="slider-wrapper" data-slider-container="2">
-      <div class="slider__title">KmO</div>
+      <div class="slider__title">KmO - Taller Vertical Esarq-Uic</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/02/kmo-00.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/02/kmo-01.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/02/kmo-02.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/02/kmo-03.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/02/kmo-00.jpg" alt="kmo 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/02/kmo-01.jpg" alt="kmo 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/02/kmo-02.jpg" alt="kmo 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/02/kmo-03.jpg" alt="kmo 03"></div>
         </div>
       </div>
     </div>
     <div class="slider-wrapper" data-slider-container="3">
-      <div class="slider__title">Architecture center</div>
+      <div class="slider__title">Architecture center in Liège</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-00.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-01.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-02.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-03.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-04.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-05.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-06.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-00.jpg" alt="centre d'architecture 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-01.jpg" alt="centre d'architecture 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-02.jpg" alt="centre d'architecture 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-03.jpg" alt="centre d'architecture 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-04.jpg" alt="centre d'architecture 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-05.jpg" alt="centre d'architecture 05"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-06.jpg" alt="centre d'architecture 06"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-07.jpg" alt="centre d'architecture 07"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-08.jpg" alt="centre d'architecture 08"></div>
         </div>
       </div>
     </div>
     <div class="slider-wrapper" data-slider-container="4">
-      <div class="slider__title">High School</div>
+      <div class="slider__title">High school in Brussels</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-00.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-01.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-02.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-03.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-04.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-05.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-06.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-00.jpg" alt="high school 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-01.jpg" alt="high school 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-02.jpg" alt="high school 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-03.jpg" alt="high school 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-04.jpg" alt="high school 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-05.jpg" alt="high school 05"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-06.jpg" alt="high school 06"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-07.jpg" alt="high school 07"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-08.jpg" alt="high school 08"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-09.jpg" alt="high school 09"></div>
         </div>
       </div>
     </div>
     <div class="slider-wrapper" data-slider-container="5">
-    <div class="slider__title">Tagada Boutique</div>
+      <div class="slider__title">Tagada Boutique</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-00.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-01.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-02.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-03.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-00.jpg" alt="tagada 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-01.jpg" alt="tagada 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-02.jpg" alt="tagada 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-03.jpg" alt="tagada 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-04.jpg" alt="tagada 04"></div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-wrapper slider--photography" data-slider-container="6">
+      <div class="slider__title">Photography</div>
+      <div class="slider__close" data-close-slider></div>
+      <div class="slider__list-wrapper">
+        <div class="slider__list" data-slider-list>
+          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-00.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-01.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-02.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-03.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-04.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-05.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-06.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-07.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-08.jpg" alt=""></div>
         </div>
       </div>
     </div>

@@ -13,14 +13,26 @@ class Slider {
 
 Slider.prototype.init = function () {
   this.slides = [];
-  forEach(this.sliders, elem => {
-    let flkty = new Flickity( elem, {
-      // options
-      cellAlign: 'center',
-      contain: true,
-      pageDots: false,
-      imagesLoaded: true
-    });
+  forEach(this.sliders, (elem, i) => {
+    let flkty = '';
+    if(i === 5 ) {
+      // slider of photography
+      flkty = new Flickity( elem, {
+        // options
+        cellAlign: 'center',
+        pageDots: false,
+        imagesLoaded: true
+      });
+    } else {
+      flkty = new Flickity( elem, {
+        // options
+        cellAlign: 'center',
+        contain: true,
+        pageDots: false,
+        imagesLoaded: true
+      });
+    }
+
     this.slides.push(flkty);
   });
 

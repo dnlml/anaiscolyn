@@ -3,6 +3,7 @@ const Card = require('./components/card.js');
 const FlipLetter = require('./components/flipLetter.js');
 const Header = require('./components/header.js');
 const Portfolio = require('./components/portfolio.js');
+const Photography = require('./components/photography.js');
 const Slider = require('./components/slider.js');
 const ScrollTo = require('./components/scrollTo.js');
 
@@ -18,6 +19,7 @@ App.prototype.init = function () {
   new Header();
   new Slider();
   new Portfolio();
+  new Photography();
   new ScrollTo();
 }
 
