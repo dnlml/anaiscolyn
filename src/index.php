@@ -243,15 +243,42 @@
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-00.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-01.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-02.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-03.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-04.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-05.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-06.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-07.jpg" alt=""></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/photography/house-sebastien-krier-architecte-08.jpg" alt=""></div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/house-sebastien-krier-architecte-00.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Sebastian Krier Architect</span>
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/house-sebastien-krier-architecte-01.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Sebastian Krier Architect</span>
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/house-sebastien-krier-architecte-02.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Sebastian Krier Architect</span>
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/house-sebastien-krier-architecte-03.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Sebastian Krier Architect</span>
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/house-sebastien-krier-architecte-04.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Sebastian Krier Architect</span>
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/house-sebastien-krier-architecte-05.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Sebastian Krier Architect</span>
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/house-sebastien-krier-architecte-06.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Sebastian Krier Architect</span>
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/house-sebastien-krier-architecte-07.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Sebastian Krier Architect</span>
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/house-sebastien-krier-architecte-08.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Sebastian Krier Architect</span>
+          </div>
         </div>
       </div>
     </div>
