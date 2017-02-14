@@ -56,7 +56,7 @@
         <div class="flexy__item about__content">
           <p>
             I was born in Belgium on the 24th of July 1989. <br>
-            Currently based in Liège, I’m passionated about  architecture and interior design.<br>
+            Currently based in Liège, I’m passionate about architecture and interior design.<br>
             I have a deep interest in <span class="a" data-photography-item="6">photography</span> and I love traveling.<br>
             In my free time I like creating ceramics  dishes.<br>
           </p>
