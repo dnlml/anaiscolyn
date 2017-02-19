@@ -122,6 +122,14 @@
       <h1 class="h2">Portfolio</h1>
       <div class="portfolio__list-wrapper">
         <ul class="portfolio__list cards" data-portfolio>
+          <li class="portfolio__item" data-portfolio-item="7">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/07/thumb.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">House & restaurant in Barcelona</h2>
+          </li>
           <li class="portfolio__item" data-portfolio-item="1">
             <div class="card__wrapper portfolio__item__card">
               <div class="portfolio__item__bg"></div>
@@ -235,6 +243,21 @@
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-02.jpg" alt="tagada 02"></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-03.jpg" alt="tagada 03"></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-04.jpg" alt="tagada 04"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="slider-wrapper" data-slider-container="7">
+      <div class="slider__title">House & restaurant in Barcelona</div>
+      <div class="slider__close" data-close-slider></div>
+      <div class="slider__list-wrapper">
+        <div class="slider__list" data-slider-list>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/00-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/01-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/02-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/03-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/04-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/05-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 05"></div>
         </div>
       </div>
     </div>
