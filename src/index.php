@@ -238,7 +238,6 @@
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-00.jpg" alt="tagada 00"></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-01.jpg" alt="tagada 01"></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-02.jpg" alt="tagada 02"></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-03.jpg" alt="tagada 03"></div>
@@ -317,18 +316,23 @@
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-01.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-02.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-03.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-04.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-05.jpg" alt="">
+            <span class="slider__item__caption">Photo for: Tagada Boutique</span>
           </div>
         </div>
       </div>

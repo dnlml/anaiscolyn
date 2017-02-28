@@ -57,7 +57,7 @@ Photography.prototype.closeSlider = function (event) {
       this.curtain.removeEventListener('click', this.closeSliderFn);
       window.removeEventListener('keyup', this.closeSliderFn);
       this.closeBtn.removeEventListener('click', this.closeSliderFn);
-      window.slides[this.id-1].select(0);
+      window.slides[this.id].select(0);
     });
   }
 };
