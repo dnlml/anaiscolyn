@@ -122,6 +122,14 @@
       <h1 class="h2">Portfolio</h1>
       <div class="portfolio__list-wrapper">
         <ul class="portfolio__list cards" data-portfolio>
+          <li class="portfolio__item" data-portfolio-item="5">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/05/thumb.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">Tagada Boutique</h2>
+          </li>
           <li class="portfolio__item" data-portfolio-item="7">
             <div class="card__wrapper portfolio__item__card">
               <div class="portfolio__item__bg"></div>
@@ -161,14 +169,6 @@
               <span class="card__light"></span>
             </div>
             <h2 class="portfolio__item__title">High school in Brussels</h2>
-          </li>
-          <li class="portfolio__item" data-portfolio-item="5">
-            <div class="card__wrapper portfolio__item__card">
-              <div class="portfolio__item__bg"></div>
-              <img src="./assets/images/portfolio/05/thumb.jpg" alt="">
-              <span class="card__light"></span>
-            </div>
-            <h2 class="portfolio__item__title">Tagada Boutique</h2>
           </li>
         </ul>
       </div>
@@ -243,6 +243,11 @@
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-02.jpg" alt="tagada 02"></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-03.jpg" alt="tagada 03"></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-04.jpg" alt="tagada 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-05.jpg" alt="tagada 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-06.jpg" alt="tagada 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-07.jpg" alt="tagada 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-08.jpg" alt="tagada 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/05/tagada-09.jpg" alt="tagada 04"></div>
         </div>
       </div>
     </div>
@@ -309,6 +314,21 @@
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-10.jpg" alt="">
             <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/tagada-photo-01.jpg" alt="">
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/tagada-photo-02.jpg" alt="">
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/tagada-photo-03.jpg" alt="">
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/tagada-photo-04.jpg" alt="">
+          </div>
+          <div class="slider__item" data-slider-item>
+            <img src="assets/images/photography/tagada-photo-05.jpg" alt="">
           </div>
         </div>
       </div>
