@@ -118,7 +118,7 @@
       </div>
     </article>
 
-    <article class="article portfolio">
+    <article class="article--stretched portfolio">
       <h1 class="h2">Portfolio</h1>
       <div class="portfolio__list-wrapper">
         <ul class="portfolio__list cards" data-portfolio>
@@ -130,21 +130,45 @@
             </div>
             <h2 class="portfolio__item__title">Tagada Boutique</h2>
           </li>
+          <li class="portfolio__item" data-portfolio-item="8">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/08/thumb.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">Vivienda unifamiliar in Lieja</h2>
+          </li>
+          <li class="portfolio__item" data-portfolio-item="1">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/06/thumb.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">Extensión de una vivienda unifamiliar in Lieja</h2>
+          </li>
+          <li class="portfolio__item" data-portfolio-item="4">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/04/thumb.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">Liceo en Bruselas</h2>
+          </li>
+          <li class="portfolio__item" data-portfolio-item="3">
+            <div class="card__wrapper portfolio__item__card">
+              <div class="portfolio__item__bg"></div>
+              <img src="./assets/images/portfolio/03/thumb.jpg" alt="">
+              <span class="card__light"></span>
+            </div>
+            <h2 class="portfolio__item__title">Centro de arquitectura en Lieja</h2>
+          </li>
           <li class="portfolio__item" data-portfolio-item="7">
             <div class="card__wrapper portfolio__item__card">
               <div class="portfolio__item__bg"></div>
               <img src="./assets/images/portfolio/07/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
-            <h2 class="portfolio__item__title">House & restaurant in Barcelona</h2>
-          </li>
-          <li class="portfolio__item" data-portfolio-item="1">
-            <div class="card__wrapper portfolio__item__card">
-              <div class="portfolio__item__bg"></div>
-              <img src="./assets/images/portfolio/01/thumb.jpg" alt="">
-              <span class="card__light"></span>
-            </div>
-            <h2 class="portfolio__item__title">Collective houses in Sabadell</h2>
+            <h2 class="portfolio__item__title">Una vivienda, un laboratorio en Barcelona</h2>
           </li>
           <li class="portfolio__item" data-portfolio-item="2">
             <div class="card__wrapper portfolio__item__card">
@@ -154,35 +178,22 @@
             </div>
             <h2 class="portfolio__item__title">KmO - Taller Vertical Esarq-Uic</h2>
           </li>
-          <li class="portfolio__item" data-portfolio-item="3">
-            <div class="card__wrapper portfolio__item__card">
-              <div class="portfolio__item__bg"></div>
-              <img src="./assets/images/portfolio/03/thumb.jpg" alt="">
-              <span class="card__light"></span>
-            </div>
-            <h2 class="portfolio__item__title">Architecture center in Liège</h2>
-          </li>
-          <li class="portfolio__item" data-portfolio-item="4">
-            <div class="card__wrapper portfolio__item__card">
-              <div class="portfolio__item__bg"></div>
-              <img src="./assets/images/portfolio/04/thumb.jpg" alt="">
-              <span class="card__light"></span>
-            </div>
-            <h2 class="portfolio__item__title">High school in Brussels</h2>
-          </li>
         </ul>
       </div>
     </article>
 
     <div class="slider-wrapper" data-slider-container="1">
-      <div class="slider__title">Collective houses in Sabadell</div>
+      <div class="slider__title">Extensión de una vivienda unifamiliar in Lieja <br>
+        <div class="slider__item__caption">En colaboración con el estudio de arquitectura Sébastien Krier</div>
+      </div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_00.jpg" alt="collective house 00"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_01.jpg" alt="collective house 01"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_02.jpg" alt="collective house 02"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/01/collective_house_03.jpg" alt="collective house 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/00.jpg" alt="Extensión de una vivienda unifamiliar in Lieja"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/01.jpg" alt="Extensión de una vivienda unifamiliar in Lieja"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/02.jpg" alt="Extensión de una vivienda unifamiliar in Lieja"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/03.jpg" alt="Extensión de una vivienda unifamiliar in Lieja"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/04.jpg" alt="Extensión de una vivienda unifamiliar in Lieja"></div>
         </div>
       </div>
     </div>
@@ -199,37 +210,37 @@
       </div>
     </div>
     <div class="slider-wrapper" data-slider-container="3">
-      <div class="slider__title">Architecture center in Liège</div>
+      <div class="slider__title">Centro de arquitectura en Lieja</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-00.jpg" alt="centre d'architecture 00"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-01.jpg" alt="centre d'architecture 01"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-02.jpg" alt="centre d'architecture 02"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-03.jpg" alt="centre d'architecture 03"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-04.jpg" alt="centre d'architecture 04"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-05.jpg" alt="centre d'architecture 05"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-06.jpg" alt="centre d'architecture 06"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-07.jpg" alt="centre d'architecture 07"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-08.jpg" alt="centre d'architecture 08"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-00.jpg" alt="Centro de arquitectura en Lieja 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-01.jpg" alt="Centro de arquitectura en Lieja 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-02.jpg" alt="Centro de arquitectura en Lieja 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-03.jpg" alt="Centro de arquitectura en Lieja 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-04.jpg" alt="Centro de arquitectura en Lieja 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-05.jpg" alt="Centro de arquitectura en Lieja 05"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-06.jpg" alt="Centro de arquitectura en Lieja 06"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-07.jpg" alt="Centro de arquitectura en Lieja 07"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/03/centre-d-architecture-08.jpg" alt="Centro de arquitectura en Lieja 08"></div>
         </div>
       </div>
     </div>
     <div class="slider-wrapper" data-slider-container="4">
-      <div class="slider__title">High school in Brussels</div>
+      <div class="slider__title">Liceo en Bruselas</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-00.jpg" alt="high school 00"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-01.jpg" alt="high school 01"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-02.jpg" alt="high school 02"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-03.jpg" alt="high school 03"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-04.jpg" alt="high school 04"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-05.jpg" alt="high school 05"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-06.jpg" alt="high school 06"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-07.jpg" alt="high school 07"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-08.jpg" alt="high school 08"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-09.jpg" alt="high school 09"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-00.jpg" alt="Liceo en Bruselas 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-01.jpg" alt="Liceo en Bruselas 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-02.jpg" alt="Liceo en Bruselas 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-03.jpg" alt="Liceo en Bruselas 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-04.jpg" alt="Liceo en Bruselas 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-05.jpg" alt="Liceo en Bruselas 05"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-06.jpg" alt="Liceo en Bruselas 06"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-07.jpg" alt="Liceo en Bruselas 07"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-08.jpg" alt="Liceo en Bruselas 08"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/04/high-school-09.jpg" alt="Liceo en Bruselas 09"></div>
         </div>
       </div>
     </div>
@@ -252,7 +263,7 @@
     </div>
     </div>
     <div class="slider-wrapper" data-slider-container="7">
-      <div class="slider__title">House & restaurant in Barcelona</div>
+      <div class="slider__title">Una vivienda, un laboratorio en Barcelona</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
@@ -262,6 +273,25 @@
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/03-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 03"></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/04-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 04"></div>
           <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/05-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 05"></div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-wrapper" data-slider-container="8">
+      <div class="slider__title">
+        Vivienda unifamiliar in Lieja <br>
+        <div class="slider__item__caption">En colaboración con el estudio de arquitectura Sébastien Krier</div>
+      </div>
+      <div class="slider__close" data-close-slider></div>
+      <div class="slider__list-wrapper">
+        <div class="slider__list" data-slider-list>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/00.jpg" alt="Vivienda unifamiliar in Lieja 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/01.jpg" alt="Vivienda unifamiliar in Lieja 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/02.jpg" alt="Vivienda unifamiliar in Lieja 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/03.jpg" alt="Vivienda unifamiliar in Lieja 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/04.jpg" alt="Vivienda unifamiliar in Lieja 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/05.jpg" alt="Vivienda unifamiliar in Lieja 05"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/06.jpg" alt="Vivienda unifamiliar in Lieja 05"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/07.jpg" alt="Vivienda unifamiliar in Lieja 05"></div>
         </div>
       </div>
     </div>

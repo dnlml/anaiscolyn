@@ -1,3 +1,14 @@
-.article {
-  margin-bottom: 6rem;
+.article,
+[class^="article--"] {
+  max-width: 85.5rem;
+  padding: 0 3rem;
+  margin: 0 auto 6rem;
+}
+
+.article--stretched {
+  max-width: 124rem;
+
+  .h2 {
+    text-align: center;
+  }
 }

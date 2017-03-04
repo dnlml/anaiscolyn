@@ -1,5 +1,7 @@
 .portfolio {
-
+  @include mq('medium') {
+    margin-top: 12rem;
+  }
 }
 
 .portfolio__list {
@@ -10,9 +12,9 @@
 
 .portfolio__item {
   position: relative;
-  margin: 1.5rem;
-  flex-basis: calc(100 / 33%);
+  margin: 0 .6rem 3rem;
   cursor: pointer;
+  text-align: center;
 
   img {
     filter: grayscale(100%);
