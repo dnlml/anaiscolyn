@@ -44,7 +44,7 @@
 
   <main class="main">
     <article class="article about" id="about">
-      <h1 class="h2">About me</h1>
+      <h1 class="h2">Sobre Mi</h1>
       <div class="flexy">
         <div class="flexy__item about__img cards">
         <div class="about__img__wrapper card__wrapper">
@@ -55,49 +55,52 @@
         </div>
         <div class="flexy__item about__content">
           <p>
-            I was born in Belgium on the 24th of July 1989. <br>
-            Currently based in Liège, I’m passionate about architecture and interior design.<br>
-            I have a deep interest in <span class="a" data-photography-item="6">photography</span> and I love traveling.<br>
-            In my free time I like creating ceramics  dishes.<br>
+            Hola! <br>
+            Soy una arquitecta belga de 27 años apasionada de arquitectura y de diseño de interiores.<br>
+            Hablo cuatros idiomas: francés, español, italiano y inglés. <br>
+            Me encantan la <span class="a" data-photography-item="6">fotografía</span> y los viages y en mi tiempo libre me dedico a la creación de cerámicas.<br>
           </p>
           <p>
-            Contact: <br>
-            Mobile: +32 485 453115<br>
-            Mail: colynanais@gmail.com
+            Contacto: <br>
+            Móvil: +32 485 453115<br>
+            Correo: colynanais@gmail.com
           </p>
         </div>
       </div>
     </article>
     <article class="article">
-      <h1 class="h2">Work Experience</h1>
+      <h1 class="h2">experiencia laboral</h1>
       <p>
-        OCT 2014 – Now <br> Internship and collaboration at <a href="http://www.sebastienkrier.be/projets/nouvelle-construction" target="_blank">Sébastien Krier architecte</a> in Liège (BE).
+        OCT 2014 – Ahora <br> Practica y collaboración en <a href="http://www.sebastienkrier.be/projets/nouvelle-construction" target="_blank">Sébastien Krier architecte</a> en Lieja (BE).
       </p>
       <p>
-        AUG 2014 - OCT 2014 <br> Internship at <a href="http://www.fhw.be/" target="_blank">FHW architectes</a> in Verviers (BE).
+        AGO 2014 - OCT 2014 <br> Practica en <a href="http://www.fhw.be/" target="_blank">FHW architectes</a> en Verviers (BE).
       </p>
       <p>
-        NOV 2013 - JUN 2014 <br> Internship at <a href="http://portalpalluel.eu/proyectos/all" target="_blank">Jorge Portal et Claire Palluel - Arquitectura y patrimonio</a> in Barcelona (ES).
+        NOV 2013 - JUN 2014 <br> Practica en <a href="http://portalpalluel.eu/proyectos/all" target="_blank">Jorge Portal et Claire Palluel - Arquitectura y penrimonio</a> en Barcelona (ES).
       </p>
       <p>
-        AUG 2012 <br> Intership at <a href="http://www.wbarchitectures.be/en/focus/Martiat_Durnez_Architectes/9/" target="_blank">Martiat + Durnez architectes</a> in Liège (BE).
+        AGO 2012 <br> Practica en <a href="http://www.wbarchitectures.be/en/focus/Martiat_Durnez_Architectes/9/" target="_blank">Martiat + Durnez architectes</a> en Lieja (BE).
       </p>
     </article>
     <article class="article">
-      <h1 class="h2">Education</h1>
+      <h1 class="h2">Formación</h1>
       <p>
         2012 – 2013 <br>
-        2nd year of Master degree at Liège University (BE).<br>
-        Spécialization in micro-architecture and furniture
+        Máster en arquitectura en la Universidad de Lieja (BE).<br>
+        Especialización micro-arquitectura y mobiliario.
       </p>
       <p>
-        2011 - 2012 <br> 1st year of Master degree at the « Escola Superior d’arquitectura de la UIC » in Barcelona (ES).<br>
-        Spécialization in urbanism
+        2011 - 2012 <br> 
+        Becada por el programa erasmus en la Escola Superior d’Arquitectura de la UIC en Barcelona (ES).<br>
+        Especialización urbanismo.
       </p>
-      <p>2007 - 2011 <br> Bachelor degree in architecture at Liège University (BE).</p>
+      <p>2007 - 2011 <br> 
+        Licenciada en arquitectura por la Universidad de Lieja (BE).
+      </p>
     </article>
     <article class="article skills">
-      <h1 class="h2">Skills</h1>
+      <h1 class="h2">Habilidades</h1>
       <div class="skills__block flexy">
         <dl class="skills__block__item flexy__item">
           <dt><h2 class="h3">Softwares</h2></dt>
@@ -108,18 +111,17 @@
           <dd>Adobe (Photoshop, Indesign)</dd>
         </dl>
         <dl class="skills__block__item flexy__item">
-          <dt><h2 class="h3">Languages</h2></dt>
-          <dd>French / native</dd>
-          <dd>Spanish / fluent</dd>
-          <dd>English / good</dd>
-          <dd>Italian / good</dd>
-          <dd>dutch / beginner </dd>
+          <dt><h2 class="h3">Idiomas</h2></dt>
+          <dd>Francés / nativo</dd>
+          <dd>Espanõl / avanzado</dd>
+          <dd>Inglés / intermedio</dd>
+          <dd>Italiano / intermedio</dd>
         </dl>
       </div>
     </article>
 
     <article class="article--stretched portfolio">
-      <h1 class="h2">Portfolio</h1>
+      <h1 class="h2">Portafolio</h1>
       <div class="portfolio__list-wrapper">
         <ul class="portfolio__list cards" data-portfolio>
           <li class="portfolio__item" data-portfolio-item="5">
@@ -267,12 +269,12 @@
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/00-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 00"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/01-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 01"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/02-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 02"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/03-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 03"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/04-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 04"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/05-house-restaurant-bcn.jpg" alt="House and restaurant in Barcelona 05"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/00-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/01-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/02-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/03-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/04-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/05-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 05"></div>
         </div>
       </div>
     </div>
@@ -296,73 +298,73 @@
       </div>
     </div>
     <div class="slider-wrapper slider--photography" data-slider-container="6">
-      <div class="slider__title">Photography</div>
+      <div class="slider__title">Fotografía</div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-00.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-01.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-02.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-03.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-04.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-05.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-06.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-07.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-08.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-09.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-10.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-01.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Tagada Boutique</span>
+            <span class="slider__item__caption">Foto pora Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-02.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Tagada Boutique</span>
+            <span class="slider__item__caption">Foto pora Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-03.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Tagada Boutique</span>
+            <span class="slider__item__caption">Foto pora Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-04.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Tagada Boutique</span>
+            <span class="slider__item__caption">Foto pora Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-05.jpg" alt="">
-            <span class="slider__item__caption">Photo for: Tagada Boutique</span>
+            <span class="slider__item__caption">Foto pora Tagada Boutique</span>
           </div>
         </div>
       </div>
