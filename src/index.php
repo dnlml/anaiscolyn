@@ -58,7 +58,7 @@
             Hola! <br>
             Soy una arquitecta belga de 27 años apasionada de arquitectura y de diseño de interiores.<br>
             Hablo cuatros idiomas: francés, español, italiano y inglés. <br>
-            Me encantan la <span class="a" data-photography-item="6">fotografía</span> y los viages y en mi tiempo libre me dedico a la creación de cerámicas.<br>
+            Me encantan la <span class="a" data-photography-item="6">fotografía</span> y los viages y en mi tiempo libre me dedico a la <a href="https://www.instagram.com/ojalaceramique/" target="_blank">creación de cerámicas.</a><br>
           </p>
           <p>
             Contacto: <br>
@@ -304,67 +304,67 @@
         <div class="slider__list" data-slider-list>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-00.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-01.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-02.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-03.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-04.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-05.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-06.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-07.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-08.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-09.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/house-sebastien-krier-architecte-10.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Sébastien Krier Architect</span>
+            <span class="slider__item__caption">Foto para Sébastien Krier Architect</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-01.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Tagada Boutique</span>
+            <span class="slider__item__caption">Foto para Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-02.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Tagada Boutique</span>
+            <span class="slider__item__caption">Foto para Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-03.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Tagada Boutique</span>
+            <span class="slider__item__caption">Foto para Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-04.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Tagada Boutique</span>
+            <span class="slider__item__caption">Foto para Tagada Boutique</span>
           </div>
           <div class="slider__item" data-slider-item>
             <img src="assets/images/photography/tagada-photo-05.jpg" alt="">
-            <span class="slider__item__caption">Foto pora Tagada Boutique</span>
+            <span class="slider__item__caption">Foto para Tagada Boutique</span>
           </div>
         </div>
       </div>
