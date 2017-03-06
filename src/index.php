@@ -12,6 +12,8 @@
   <link rel="manifest" href="/manifest.json">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="architect"/>
+
   <script>
     document.documentElement.classList.remove("no-js");
     document.documentElement.classList.add("js");
@@ -77,7 +79,7 @@
         AGO 2014 - OCT 2014 <br> Prácticas en <a href="http://www.fhw.be/" target="_blank">FHW architectes</a> en Verviers (BE).
       </p>
       <p>
-        NOV 2013 - JUN 2014 <br> Prácticas en <a href="http://portalpalluel.eu/proyectos/all" target="_blank">Jorge Portal et Claire Palluel - Arquitectura y penrimonio</a> en Barcelona (ES).
+        NOV 2013 - JUN 2014 <br> Prácticas en <a href="http://portalpalluel.eu/proyectos/all" target="_blank">Jorge Portal et Claire Palluel - Arquitectura y patrimonio</a> en Barcelona (ES).
       </p>
       <p>
         AGO 2012 <br> Prácticas en <a href="http://www.wbarchitectures.be/en/focus/Martiat_Durnez_Architectes/9/" target="_blank">Martiat + Durnez architectes</a> en Lieja (BE).
