@@ -44,7 +44,7 @@
 
   <main class="main">
     <article class="article about" id="about">
-      <h1 class="h2">Sobre Mi</h1>
+      <h1 class="h2">Quién soy</h1>
       <div class="flexy">
         <div class="flexy__item about__img cards">
         <div class="about__img__wrapper card__wrapper">
@@ -56,9 +56,9 @@
         <div class="flexy__item about__content">
           <p>
             Hola! <br>
-            Soy una arquitecta belga de 27 años apasionada de arquitectura y de diseño de interiores.<br>
+            Soy una arquitecta belga de 27 años apasionada por la arquitectura y de diseño de interiores.<br>
             Hablo cuatros idiomas: francés, español, italiano y inglés. <br>
-            Me encantan la <span class="a" data-photography-item="6">fotografía</span> y los viages y en mi tiempo libre me dedico a la <a href="https://www.instagram.com/ojalaceramique/" target="_blank">creación de cerámicas.</a><br>
+            Me encanta la <span class="a" data-photography-item="6">fotografía</span> y los viages y en mi tiempo libre me dedico a la <a href="https://www.instagram.com/ojalaceramique/" target="_blank">creación de cerámicas.</a><br>
           </p>
           <p>
             Contacto: <br>
@@ -69,18 +69,18 @@
       </div>
     </article>
     <article class="article">
-      <h1 class="h2">experiencia laboral</h1>
+      <h1 class="h2">Experiencia laboral</h1>
       <p>
-        OCT 2014 – Ahora <br> Practica y collaboración en <a href="http://www.sebastienkrier.be/projets/nouvelle-construction" target="_blank">Sébastien Krier architecte</a> en Lieja (BE).
+        OCT 2014 – Ahora <br> Prácticas y colaboración en <a href="http://www.sebastienkrier.be/projets/nouvelle-construction" target="_blank">Sébastien Krier architecte</a> en Lieja (BE).
       </p>
       <p>
-        AGO 2014 - OCT 2014 <br> Practica en <a href="http://www.fhw.be/" target="_blank">FHW architectes</a> en Verviers (BE).
+        AGO 2014 - OCT 2014 <br> Prácticas en <a href="http://www.fhw.be/" target="_blank">FHW architectes</a> en Verviers (BE).
       </p>
       <p>
-        NOV 2013 - JUN 2014 <br> Practica en <a href="http://portalpalluel.eu/proyectos/all" target="_blank">Jorge Portal et Claire Palluel - Arquitectura y penrimonio</a> en Barcelona (ES).
+        NOV 2013 - JUN 2014 <br> Prácticas en <a href="http://portalpalluel.eu/proyectos/all" target="_blank">Jorge Portal et Claire Palluel - Arquitectura y penrimonio</a> en Barcelona (ES).
       </p>
       <p>
-        AGO 2012 <br> Practica en <a href="http://www.wbarchitectures.be/en/focus/Martiat_Durnez_Architectes/9/" target="_blank">Martiat + Durnez architectes</a> en Lieja (BE).
+        AGO 2012 <br> Prácticas en <a href="http://www.wbarchitectures.be/en/focus/Martiat_Durnez_Architectes/9/" target="_blank">Martiat + Durnez architectes</a> en Lieja (BE).
       </p>
     </article>
     <article class="article">
@@ -146,7 +146,7 @@
               <img src="./assets/images/portfolio/06/thumb.jpg" alt="">
               <span class="card__light"></span>
             </div>
-            <h2 class="portfolio__item__title">Extensión de una vivienda unifamiliar in Lieja</h2>
+            <h2 class="portfolio__item__title">Ampliación de una vivienda unifamiliar in Lieja</h2>
           </li>
           <li class="portfolio__item" data-portfolio-item="4">
             <div class="card__wrapper portfolio__item__card">
@@ -185,17 +185,17 @@
     </article>
 
     <div class="slider-wrapper" data-slider-container="1">
-      <div class="slider__title">Extensión de una vivienda unifamiliar in Lieja <br>
+      <div class="slider__title">Ampliación de una vivienda unifamiliar in Lieja <br>
         <div class="slider__item__caption">En colaboración con el estudio de arquitectura Sébastien Krier</div>
       </div>
       <div class="slider__close" data-close-slider></div>
       <div class="slider__list-wrapper">
         <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/00.jpg" alt="Extensión de una vivienda unifamiliar in Lieja"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/01.jpg" alt="Extensión de una vivienda unifamiliar in Lieja"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/02.jpg" alt="Extensión de una vivienda unifamiliar in Lieja"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/03.jpg" alt="Extensión de una vivienda unifamiliar in Lieja"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/04.jpg" alt="Extensión de una vivienda unifamiliar in Lieja"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/00.jpg" alt="Ampliación de una vivienda unifamiliar in Lieja"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/01.jpg" alt="Ampliación de una vivienda unifamiliar in Lieja"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/02.jpg" alt="Ampliación de una vivienda unifamiliar in Lieja"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/03.jpg" alt="Ampliación de una vivienda unifamiliar in Lieja"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/06/04.jpg" alt="Ampliación de una vivienda unifamiliar in Lieja"></div>
         </div>
       </div>
     </div>
