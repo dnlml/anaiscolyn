@@ -104,6 +104,12 @@ gulp.task('copyImages', () => {
     .pipe(browserSync.stream());
 });
 
+gulp.task('copyDatas', () => {
+  return gulp.src('./src/assets/datas/**/*.*')
+    .pipe(gulp.dest('./dist/assets/datas'))
+    .pipe(browserSync.stream());
+});
+
 gulp.task('copyHtml', () => {
   return gulp.src('./src/*.*')
     .pipe(gulp.dest('./dist'))
@@ -120,6 +126,7 @@ gulp.task('watch', () => {
   gulp.watch('./src/assets/scripts/**/*.js', gulp.parallel('scripts')).on('change', browserSync.reload);
   gulp.watch('./src/assets/fonts/*.*', gulp.parallel('copyFonts')).on('change', browserSync.reload);
   gulp.watch('./src/assets/images/**/*.*', gulp.parallel('copyImages')).on('change', browserSync.reload);
+  gulp.watch('./src/assets/datas/**/*.*', gulp.parallel('copyDatas')).on('change', browserSync.reload);
 });
 /*
   Watch task
@@ -134,6 +141,7 @@ gulp.task('default',
       'copyHtml',
       'copyFonts',
       'copyImages',
+      'copyDatas',
       'watch',
       'browser-sync'
     )
@@ -154,6 +162,7 @@ gulp.task('build', gulp.series(
   gulp.parallel(
     'copyHtml',
     'copyImages',
+    'copyDatas',
     'copyFonts'
   )
 ));

@@ -65,7 +65,8 @@
           <p>
             Contacto: <br>
             Móvil: +32 485 453115<br>
-            Correo: colynanais@gmail.com
+            Correo: colynanais@gmail.com<br>
+            <a href="assets/datas/AC.pdf">Enlace a la versión pdf</a>
           </p>
         </div>
       </div>
