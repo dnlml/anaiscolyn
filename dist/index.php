@@ -27,19 +27,6 @@
 
     ga('create', 'UA-90628218-1', 'auto');
     ga('send', 'pageview');
-
-    /**
-    * Function that tracks a click on an outbound link in Analytics.
-    * This function takes a valid URL string as an argument, and uses that URL string
-    * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-    * using 'navigator.sendBeacon' in browser that support it.
-    */
-    var trackOutboundLink = function(url) {
-      ga('send', 'event', 'outbound', 'click', url, {
-        'transport': 'beacon',
-        'hitCallback': function(){document.location = url;}
-      });
-    }
   </script>
 </head>
 <body>
@@ -78,7 +65,7 @@
             Contacto: <br>
             Móvil: +32 485 453115<br>
             Correo: colynanais@gmail.com<br>
-            <a href="assets/datas/AC.pdf" target="blank" onclick="trackOutboundLink('http://www.anaiscolyn.com/assets/datas/AC.pdf'); return false;">Enlace a la versión pdf</a>
+            <a href="assets/datas/AC.pdf" target="blank">Enlace a la versión pdf</a>
           </p>
         </div>
       </div>
@@ -106,11 +93,11 @@
         Especialización micro-arquitectura y mobiliario.
       </p>
       <p>
-        2011 - 2012 <br> 
+        2011 - 2012 <br>
         Becada por el programa erasmus en la Escola Superior d’Arquitectura de la UIC en Barcelona (ES).<br>
         Especialización urbanismo.
       </p>
-      <p>2007 - 2011 <br> 
+      <p>2007 - 2011 <br>
         Licenciada en arquitectura por la Universidad de Lieja (BE).
       </p>
     </article>
@@ -278,40 +265,7 @@
         </div>
       </div>
     </div>
-    </div>
-    <div class="slider-wrapper" data-slider-container="7">
-      <div class="slider__title">Una vivienda, un laboratorio en Barcelona</div>
-      <div class="slider__close" data-close-slider></div>
-      <div class="slider__list-wrapper">
-        <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/00-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 00"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/01-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 01"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/02-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 02"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/03-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 03"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/04-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 04"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/05-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 05"></div>
-        </div>
-      </div>
-    </div>
-    <div class="slider-wrapper" data-slider-container="8">
-      <div class="slider__title">
-        Vivienda unifamiliar in Lieja <br>
-        <div class="slider__item__caption">En colaboración con el estudio de arquitectura Sébastien Krier</div>
-      </div>
-      <div class="slider__close" data-close-slider></div>
-      <div class="slider__list-wrapper">
-        <div class="slider__list" data-slider-list>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/00.jpg" alt="Vivienda unifamiliar in Lieja 00"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/01.jpg" alt="Vivienda unifamiliar in Lieja 01"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/02.jpg" alt="Vivienda unifamiliar in Lieja 02"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/03.jpg" alt="Vivienda unifamiliar in Lieja 03"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/04.jpg" alt="Vivienda unifamiliar in Lieja 04"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/05.jpg" alt="Vivienda unifamiliar in Lieja 05"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/06.jpg" alt="Vivienda unifamiliar in Lieja 05"></div>
-          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/07.jpg" alt="Vivienda unifamiliar in Lieja 05"></div>
-        </div>
-      </div>
-    </div>
+
     <div class="slider-wrapper slider--photography" data-slider-container="6">
       <div class="slider__title">Fotografía</div>
       <div class="slider__close" data-close-slider></div>
@@ -381,6 +335,39 @@
             <img src="assets/images/photography/tagada-photo-05.jpg" alt="">
             <span class="slider__item__caption">Foto para Tagada Boutique</span>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-wrapper" data-slider-container="7">
+      <div class="slider__title">Una vivienda, un laboratorio en Barcelona</div>
+      <div class="slider__close" data-close-slider></div>
+      <div class="slider__list-wrapper">
+        <div class="slider__list" data-slider-list>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/00-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/01-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/02-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/03-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/04-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/07/05-house-restaurant-bcn.jpg" alt="Una vivienda, un laboratorio en Barcelona 05"></div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-wrapper" data-slider-container="8">
+      <div class="slider__title">
+        Vivienda unifamiliar in Lieja <br>
+        <div class="slider__item__caption">En colaboración con el estudio de arquitectura Sébastien Krier</div>
+      </div>
+      <div class="slider__close" data-close-slider></div>
+      <div class="slider__list-wrapper">
+        <div class="slider__list" data-slider-list>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/00.jpg" alt="Vivienda unifamiliar in Lieja 00"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/01.jpg" alt="Vivienda unifamiliar in Lieja 01"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/02.jpg" alt="Vivienda unifamiliar in Lieja 02"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/03.jpg" alt="Vivienda unifamiliar in Lieja 03"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/04.jpg" alt="Vivienda unifamiliar in Lieja 04"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/05.jpg" alt="Vivienda unifamiliar in Lieja 05"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/06.jpg" alt="Vivienda unifamiliar in Lieja 05"></div>
+          <div class="slider__item" data-slider-item><img src="assets/images/portfolio/08/07.jpg" alt="Vivienda unifamiliar in Lieja 05"></div>
         </div>
       </div>
     </div>
