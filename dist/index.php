@@ -73,7 +73,7 @@
     <article class="article">
       <h1 class="h2">Experiencia laboral</h1>
       <p>
-        OCT 2014 – Ahora <br> Prácticas y colaboración en <a href="http://www.sebastienkrier.be/projets/nouvelle-construction" target="_blank">Sébastien Krier architecte</a> en Lieja (BE).
+        OCT 2014 – Ahora <br> Prácticas y colaboración en <a href="http://www.sebastienkrier.be/" target="_blank">Sébastien Krier architecte</a> en Lieja (BE).
       </p>
       <p>
         AGO 2014 - OCT 2014 <br> Prácticas en <a href="http://www.fhw.be/" target="_blank">FHW architectes</a> en Verviers (BE).
