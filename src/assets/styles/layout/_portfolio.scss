@@ -4,6 +4,17 @@
   }
 }
 
+.portfolio__subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  letter-spacing: .2em;
+}
+
+.portfolio__title {
+  margin-bottom: 0;
+}
+
 .portfolio__list {
   display: flex;
   justify-content: center;

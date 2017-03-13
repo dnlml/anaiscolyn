@@ -123,7 +123,10 @@
     </article>
 
     <article class="article--stretched portfolio">
-      <h1 class="h2">Portafolio</h1>
+      <h1 class="h2 portfolio__title">Portafolio</h1>
+      <div class="portfolio__subtitle">
+        Para mas detailles descarga el <a href="assets/datas/AC.pdf" target="blank">PDF</a>
+      </div>
       <div class="portfolio__list-wrapper">
         <ul class="portfolio__list cards" data-portfolio>
           <li class="portfolio__item" data-portfolio-item="5">
