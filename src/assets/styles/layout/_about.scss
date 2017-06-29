@@ -17,7 +17,7 @@
 }
 
 .about__img__gradient {
-  @include absolute();
+  @include position();
 }
 
 .about__img__thumb {
