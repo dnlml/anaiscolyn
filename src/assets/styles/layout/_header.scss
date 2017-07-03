@@ -73,13 +73,27 @@
 }
 
 .header__menu {
-  max-width: 50rem;
   margin: 1rem auto 0;
   line-height: 2;
 
+  @include mq('medium') {
+    display: block;
+  }
+
+  @include mq('medium-l') {
+    max-width: 50rem;
+  }
+
   .subpage & {
+    display: none;
     @include position($position: absolute, $top: 1.6rem, $left: auto, $right: 4rem, $width: 60rem, $height: auto);
     line-height: 1;
+    z-index: 30;
+
+    @include mq('medium') {
+      display: block;
+      max-width: 40rem;
+    }
   }
 }
 

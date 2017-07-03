@@ -31,6 +31,13 @@ a,
     color: darken($salmon, 20%);
     cursor: pointer;
 
+    .h1 & {
+      color: black;
+      &:after {
+        display: none;
+      }
+    }
+
     &:after {
       content: '';
       position: absolute;
