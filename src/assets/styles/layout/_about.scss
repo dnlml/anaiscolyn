@@ -1,5 +1,13 @@
 .about {
   padding-top: 3rem;
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  @include mq('medium') {
+    margin-top: 6rem;
+  }
 }
 
 .about__img {
@@ -17,7 +25,7 @@
 }
 
 .about__img__gradient {
-  @include absolute();
+  @include position();
 }
 
 .about__img__thumb {
@@ -30,5 +38,19 @@
   max-width: 64rem;
   @include mq('medium-l') {
     padding-left: 3rem;
+  }
+}
+
+a.about__cv{
+  color: white;
+  background: $salmon;
+  font-weight: 800;
+  font-size: 1.4rem;
+  padding: .8rem 1rem .7rem;
+  margin-top: 1rem;
+  display: inline-block;
+
+  &:after {
+    display: none;
   }
 }

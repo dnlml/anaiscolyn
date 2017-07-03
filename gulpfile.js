@@ -84,7 +84,7 @@ function bundleProd () {
 
 gulp.task('browser-sync', function() {
   browserSync.init({
-    proxy: "http://localhost:8888/anaiscolyn/dist/" // ! IMPORTANT TO CHANGE
+    proxy: "http://localhost:8000/" // ! IMPORTANT TO CHANGE
   });
 });
 

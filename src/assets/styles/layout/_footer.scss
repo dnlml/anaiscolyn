@@ -6,4 +6,8 @@
   @include mq('medium-l') {
     text-align: right;
   }
+
+  .home & {
+    @include position( $position: fixed, $top: auto, $left: auto, $width: auto, $height: auto);
+  }
 }

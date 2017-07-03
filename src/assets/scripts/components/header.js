@@ -4,6 +4,7 @@ const THREE = require('three');
 class Header {
   constructor () {
     this.header = document.querySelector('[data-header]');
+    if(!this.header) return;
     this.init();
   }
 };
