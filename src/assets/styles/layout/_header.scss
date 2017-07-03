@@ -98,13 +98,18 @@
 }
 
 .header__menu__list {
-  display: flex;
-  justify-content: space-between;
 
+  text-align: center;
   text-transform: uppercase;
   font-size: 1.1rem;
   letter-spacing: .3rem;
   font-weight: bold;
+
+  @include mq('medium-l') {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
 }
 
 .header__menu__item {
