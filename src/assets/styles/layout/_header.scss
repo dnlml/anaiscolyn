@@ -90,7 +90,7 @@
     line-height: 1;
     z-index: 30;
 
-    @include mq('medium') {
+    @include mq('medium-l') {
       display: block;
       max-width: 40rem;
     }
