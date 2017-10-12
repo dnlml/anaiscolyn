@@ -1,6 +1,4 @@
 const WebFont = require('webfontloader');
-const Card = require('./components/card.js');
-const FlipLetter = require('./components/flipLetter.js');
 const Header = require('./components/header.js');
 const Portfolio = require('./components/portfolio.js');
 const Photography = require('./components/photography.js');
@@ -13,8 +11,6 @@ class App {
 }
 
 App.prototype.init = function () {
-  new Card();
-  new FlipLetter();
   new Header();
   new Slider();
   new Portfolio();
