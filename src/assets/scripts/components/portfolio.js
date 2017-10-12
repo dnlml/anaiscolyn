@@ -3,7 +3,7 @@ const dynamics = require('dynamics.js');
 
 class Portfolio {
   constructor () {
-    this.portfolio = document.querySelector('[data-portfolio]');
+    this.portfolio = document.querySelector('.js-portfolio');
 
     if (!this.portfolio) return;
 
@@ -39,8 +39,8 @@ Portfolio.prototype.onClick = function (event) {
 Portfolio.prototype.openSlider = function (id) {
   this.id = id;
   this.curtain = document.querySelector(`[data-slider-container="${this.id}"]`);
-  this.closeBtn = this.curtain.querySelector('[data-close-slider]');
-  this.slider = this.curtain.querySelector('[data-slider-list]');
+  this.closeBtn = this.curtain.querySelector('.js-close-slider');
+  this.slider = this.curtain.querySelector('.js-slider-list');
 
   this.closeSliderFn = this.closeSlider.bind(this);
   if(!this.curtain) return;

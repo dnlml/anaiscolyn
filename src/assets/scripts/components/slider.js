@@ -4,7 +4,7 @@ const forEach = require('lodash/forEach');
 
 class Slider {
   constructor() {
-    this.sliders = document.querySelectorAll('[data-slider-list]');
+    this.sliders = document.querySelectorAll('.js-slider-list');
     if(!this.sliders.length) return;
 
     this.init();

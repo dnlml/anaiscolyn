@@ -3,7 +3,7 @@ const THREE = require('three');
 
 class Header {
   constructor () {
-    this.header = document.querySelector('[data-header]');
+    this.header = document.querySelector('.js-header');
     if(!this.header) return;
     this.init();
   }
